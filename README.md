@@ -1,10 +1,10 @@
-# 🧑‍💻 Lab 2 – Build SLU-stagram
+#  Lab 2 – Build SLU-stagram
 **Course:** CSCI-4360 / CSCI-5360 Web Technologies  
 **Student:** Naveen Majjari  
 
 ---
 
-## 🏗️ Overview
+##  Overview
 This lab implements a **mini Instagram-style photo feed** using React 18 and Vite.  
 It demonstrates component decomposition, state management, controlled forms, event handling, accessibility, and basic deployment.
 
@@ -13,11 +13,11 @@ It demonstrates component decomposition, state management, controlled forms, eve
 ## 📸 Deliverables & Verification
 
 ### Part 0 – Project Setup (5 pts)
-✅ App successfully runs at **http://localhost:5173/** with no console errors or warnings.
+ App successfully runs at **http://localhost:5173/** with no console errors or warnings.
 
 ---
 
-### 🧩 Feed & Interaction (Parts 1–4)
+###  Feed & Interaction (Parts 1–4)
 **Functionality demonstrated in screenshots:**
 1. **Two posts visible:** one liked (♥ filled + count increased) and one not liked.  
 2. **Comment system:** a new comment is posted and visible under that post.  
@@ -63,14 +63,14 @@ Example output:
 
 ---
 
-### 🖼️ Meaningful Alt Text
+###  Meaningful Alt Text
 - **Avatar:** `alt="{author} avatar"`.  
 - **Post image:** `alt={post.caption ? post.caption : \`Photo by @${post.author}\`}`.  
 - Decorative images (if any) use `alt=""`.
 
 ---
 
-### 🗂️ Codebase Highlights
+###  Codebase Highlights
 | Component | Purpose |
 |------------|----------|
 | `Navbar.jsx` | Fixed header with white Upload/MSG buttons. |
@@ -95,7 +95,7 @@ Example output:
 - `vite.config.js` → `base: '/mini-insta/'`  
 - Router switched to `<HashRouter>` for Pages.  
 - Deployed using `gh-pages -d dist` to `gh-pages` branch.  
-**Live URL:** [`https://USERNAME.github.io/mini-insta/`](https://USERNAME.github.io/mini-insta/)
+**Live URL:** [`https://USERNAME.github.io/mini-insta/`](https://github.com/naveen-majjari/SLU-stagram)
 
 ---
 
