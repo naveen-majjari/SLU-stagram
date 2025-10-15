@@ -95,7 +95,7 @@ Example output:
 - `vite.config.js` → `base: '/mini-insta/'`  
 - Router switched to `<HashRouter>` for Pages.  
 - Deployed using `gh-pages -d dist` to `gh-pages` branch.  
-**Live URL:** [`https://USERNAME.github.io/mini-insta/`](https://github.com/naveen-majjari/SLU-stagram)
+**Live URL:** [`https://github.com/naveen-majjari/SLU-stagram`](https://github.com/naveen-majjari/SLU-stagram)
 
 ---
 
